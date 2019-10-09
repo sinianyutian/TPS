@@ -16,7 +16,7 @@ ___
 | show_U.m        | 显示U函数                                                    |
 | idwInterp.m     | 反距离加权插值（Inverse Distance Weighted），解决hole问题    |
 | nearestInterp.m | 最邻近插值，解决hole问题                                     |
-| tpsMap.m        | 计算变形后的位置，利用了公式：$f(x',y')=a_1+a_xx+a_yy+\sum_{i=1}^n{w_iU(|P_i-(x,y)|)}$ |
+| tpsMap.m        | 计算变形后的位置，利用了公式：<br>$f(x',y')=a_1+a_xx+a_yy+\sum_{i=1}^n{w_iU(|P_i-(x,y)|)}$ |
 | warpImage.m     | 对图像进行变形，得到变形的图像                               |
 | warpImage1.m    | 对图像进行变形，得到变形的图像(另外一种方法)                 |
 | main.m          | 主函数                                                       |

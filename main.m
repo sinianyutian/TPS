@@ -24,13 +24,14 @@ img = imread('test.jpg');
 
 % show
 figure(1)
+pos = tight_subplot(1, 3, 0.01, 0.01, 0.01);
 
-subplot(1,3,1); imshow(img,[]);
+subplot('Position', pos{1,1}); imshow(img,[]);
 for ix = 1 : length(control_point_1)
 	impoint(gca,control_point_1(ix, 2),control_point_1(ix, 1));
 end
 
-subplot(1,3,2); imshow(uint8(img_warp),[]);
+subplot('Position', pos{1,2}); imshow(uint8(img_warp),[]);
 for ix = 1 : length(control_point_1)
 	h = impoint(gca,control_point_2(ix, 2),control_point_2(ix, 1));
     setColor(h,'r')
@@ -39,7 +40,7 @@ for ix = 1 : length(control_point_1)
     setColor(h1,'g')
 end
 
-subplot(1,3,3); imshow(uint8(img_ip),[]);
+subplot('Position', pos{1,3}); imshow(uint8(img_ip),[]);
 for ix = 1 : length(control_point_1)
 	h = impoint(gca,control_point_2(ix, 2),control_point_2(ix, 1));
     setColor(h,'r')
