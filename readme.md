@@ -32,9 +32,9 @@ ___
 
 #### 示例
 
-![main方法结果](https://github.com/yfor1008/TPS/blob/master/src/main_result.png)
+![main方法结果](https://github.com/yfor1008/TPS/raw/master/src/main_result.png)
 
-![main_1方法结果](https://github.com/yfor1008/TPS/blob/master/src/main_1_result.png)
+![main_1方法结果](https://github.com/yfor1008/TPS/raw/master/src/main_1_result.png)
 
 说明：
 
